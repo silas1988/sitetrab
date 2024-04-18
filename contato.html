@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Silas Barbosa de Almeida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte padrão */
+            margin: 0; /* Remove as margens padrão do body */
+            padding: 0; /* Remove o padding padrão do body */
+            background-color: #f4f4f4; /* Define a cor de fundo */
+            color: #333; /* Define a cor do texto */
+            text-align: center; /* Centraliza o conteúdo na página */
+        }
+
+        .container {
+            max-width: 800px; /* Define a largura máxima do conteúdo */
+            margin: 0 auto; /* Centraliza o conteúdo na página */
+            padding: 20px; /* Adiciona um espaço interno */
+            border: 1px solid #ccc; /* Adiciona uma borda ao redor do conteúdo */
+            background-color: #fff; /* Define a cor de fundo do conteúdo */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao conteúdo */
+        }
+
+        header {
+            margin-bottom: 40px; /* Adiciona um espaço abaixo do cabeçalho */
+        }
+
+        header h1 {
+            font-size: 24px; /* Define o tamanho da fonte do título */
+            margin-bottom: 10px; /* Adiciona um espaço abaixo do título */
+        }
+
+        .content {
+            text-align: left; /* Alinha o conteúdo à esquerda */
+            margin-bottom: 40px; /* Adiciona um espaço abaixo do conteúdo */
+            padding: 0 20px; /* Adiciona um espaçamento interno */
+        }
+
+        p {
+            line-height: 1.6; /* Define o espaçamento entre linhas */
+            margin-bottom: 20px; /* Adiciona um espaço abaixo do parágrafo */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        nav {
+            margin-top: 20px; /* Adiciona um espaço acima do menu de navegação */
+        }
+
+        nav a {
+            display: inline-block; /* Faz com que os itens de navegação fiquem na mesma linha */
+            padding: 10px 20px; /* Adiciona um preenchimento aos itens de navegação */
+            margin: 0 10px; /* Adiciona uma margem entre os itens de navegação */
+            text-decoration: none; /* Remove a decoração padrão dos links */
+            background-color: #333; /* Define a cor de fundo dos links */
+            color: #fff; /* Define a cor do texto dos links */
+            border-radius: 5px; /* Adiciona uma borda arredondada aos links */
+        }
+
+        nav a:hover {
+            background-color: #555; /* Define a cor de fundo dos links quando passa o mouse sobre eles */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Contato - Silas Barbosa de Almeida</h1>
+        </header>
+
+        <!-- Conteúdo -->
+        <div class="content">
+            <form action="https://formspree.io/silasbarbosa19880714@gmail.com" method="POST">
+                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <!-- Botões de navegação -->
+        <nav>
+            <a href="sobre_mim.html">Sobre Mim</a>
+            <a href="formacao_educacional.html">Formacao Educacional</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </div>
+</body>
+</html>
